@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مكة المكرمة — رحلة إلى بيت الله الحرام</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#e9e4d6;--sf:#f6f2e8;--tx:#1b1a17;--mut:#5b574c;--gd:#8a6516;--ac:#1f5e55;--bd:rgba(27,26,23,.18);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#100e0c;--sf:#1a1713;--tx:#efe6d2;--mut:#b5a98f;--gd:#d2ab55;--ac:#5fb3a2;--bd:rgba(210,171,85,.25)}}
+:root[data-theme="dark"]{--bg:#100e0c;--sf:#1a1713;--tx:#efe6d2;--mut:#b5a98f;--gd:#d2ab55;--ac:#5fb3a2;--bd:rgba(210,171,85,.25)}
+.dk{--bg:#100e0c;--sf:#1a1713;--tx:#efe6d2;--mut:#b5a98f;--gd:#d2ab55;--ac:#5fb3a2;--bd:rgba(210,171,85,.25)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 18px/1.9 Tajawal,"Segoe UI",Tahoma,sans-serif}
+h1,h2,h3{font-family:Amiri,"Traditional Arabic",serif;font-weight:700;line-height:1.35;margin:0}
+h2{font-size:clamp(32px,5vw,48px);color:var(--gd);margin-bottom:12px}
+h3{font-size:26px}
+p{margin:0 0 14px;max-width:62ch}
+section{background:var(--bg);color:var(--tx);padding:84px 0}
+.w{max-width:1080px;margin:0 auto;padding:0 20px}
+.lead{color:var(--mut);font-size:19px;margin-bottom:36px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gd);outline-offset:3px}
+.hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;background:radial-gradient(ellipse at 30% 40%,rgba(210,171,85,.16),transparent 60%),var(--bg),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cg fill='none' stroke='%23d2ab55' stroke-opacity='.16'%3E%3Crect x='15' y='15' width='30' height='30'/%3E%3Crect x='15' y='15' width='30' height='30' transform='rotate(45 30 30)'/%3E%3C/g%3E%3C/svg%3E");padding:0}
+.hero nav{display:flex;justify-content:space-between;align-items:center;padding:22px 20px;max-width:1080px;width:100%;margin:0 auto;gap:16px;flex-wrap:wrap}
+.hero nav b{font:700 24px Amiri,serif;color:var(--gd)}
+.hero nav div{display:flex;gap:20px;font-size:16px;flex-wrap:wrap}
+.hero nav a{text-decoration:none;color:var(--mut)}.hero nav a:hover{color:var(--gd)}
+.hg{flex:1;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:30px;max-width:1080px;margin:0 auto;padding:20px}
+.hg h1{font-size:clamp(56px,10vw,120px);color:var(--gd);line-height:1.1}
+.hg h2{font-size:clamp(22px,3vw,30px);color:var(--tx);font-weight:400;margin:14px 0 18px}
+.ayah{font:400 22px/2 Amiri,serif;color:var(--mut);border-inline-start:3px solid var(--gd);padding-inline-start:16px;max-width:30em;margin-bottom:28px}
+.ayah small{display:block;font:400 15px Tajawal,sans-serif}
+.btn{display:inline-block;padding:12px 28px;background:var(--gd);color:#100e0c;font-weight:700;text-decoration:none;border:1px solid var(--gd);margin-inline-end:10px;margin-bottom:10px}
+.btn.o{background:none;color:var(--gd)}
+.scene{perspective:900px;width:240px;height:300px;margin:auto;position:relative}
+.scene:after{content:"";position:absolute;bottom:6px;left:-10%;width:120%;height:34px;background:radial-gradient(ellipse,rgba(210,171,85,.35),transparent 70%)}
+.cube{position:relative;width:200px;height:240px;margin:20px;transform-style:preserve-3d;animation:spin 30s linear infinite}
+@keyframes spin{from{transform:rotateX(-12deg) rotateY(0)}to{transform:rotateX(-12deg) rotateY(360deg)}}
+.fc{position:absolute;width:200px;height:240px;background:linear-gradient(#1d1915,#0a0908);border:1px solid rgba(210,171,85,.3)}
+.fc:before{content:"";position:absolute;inset:34px 0 auto;height:36px;background:linear-gradient(90deg,#8a6516,#e2bf6a,#8a6516)}
+.fc:nth-child(1){transform:translateZ(100px)}.fc:nth-child(2){transform:rotateY(90deg) translateZ(100px)}.fc:nth-child(3){transform:rotateY(180deg) translateZ(100px)}.fc:nth-child(4){transform:rotateY(-90deg) translateZ(100px)}
+.fc.t{height:200px;top:20px;transform:rotateX(90deg) translateZ(120px);background:#0a0908}.fc.t:before{display:none}
+.dr{position:absolute;left:50%;bottom:26%;width:34%;height:34%;transform:translateX(-50%);background:linear-gradient(#e2bf6a,#8a6516);border:2px solid #100e0c}
+@media(prefers-reduced-motion:reduce){.cube{animation:none;transform:rotateX(-12deg) rotateY(35deg)}html{scroll-behavior:auto}}
+.mk{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+dl{margin:0}dt{font:700 22px Amiri,serif;color:var(--gd);margin-top:14px}dd{margin:0 0 6px;color:var(--mut)}
+.lm{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0;margin-top:44px;border-block:1px solid var(--bd)}
+.lm div{padding:18px 16px;border-inline-start:1px solid var(--bd)}.lm div:first-child{border:0}
+.lm b{display:block;font:700 22px Amiri,serif;color:var(--gd)}.lm span{color:var(--mut);font-size:16px;line-height:1.7}
+.kg{display:grid;grid-template-columns:260px 1fr;gap:36px;align-items:start}
+.pl{display:flex;flex-direction:column;border:1px solid var(--bd)}
+.pl button,.tabs button{font:500 18px Tajawal,sans-serif;color:var(--tx);background:none;border:0;border-bottom:1px solid var(--bd);padding:14px 18px;text-align:start;cursor:pointer}
+.pl button:last-child{border:0}
+.pl button[aria-selected=true],.tabs button[aria-selected=true]{background:var(--gd);color:#100e0c;font-weight:700}
+.pn{background:var(--sf);border:1px solid var(--bd);padding:30px;min-height:230px}
+.pn p{color:var(--mut)}
+.ms{border-top:1px solid var(--bd)}
+.ms div{display:grid;grid-template-columns:230px 1fr;gap:24px;padding:22px 0;border-bottom:1px solid var(--bd)}
+.ms h3{color:var(--ac)}.ms p{margin:0;color:var(--mut)}
+ol.st{list-style:none;margin:0;padding:0;counter-reset:s;border-inline-start:2px solid var(--gd)}
+.st li{counter-increment:s;position:relative;padding:0 34px 34px 0}
+.st li:before{content:counter(s);position:absolute;inset-inline-start:-17px;top:0;width:32px;height:32px;border-radius:50%;background:var(--gd);color:#100e0c;font-weight:700;text-align:center;line-height:32px}
+.st h3{margin-bottom:4px}.st p{color:var(--mut);margin-bottom:8px}
+.tl{font:400 20px/2 Amiri,serif;color:var(--gd)}
+.ct{display:inline-flex;align-items:center;gap:12px;background:var(--sf);border:1px solid var(--bd);padding:8px 14px;margin-top:6px}
+.ct output{font:700 26px Amiri,serif;color:var(--gd);min-width:3.2em}
+.ct button{font:500 15px Tajawal,sans-serif;background:var(--gd);color:#100e0c;border:0;padding:6px 14px;cursor:pointer}.ct button+button{background:none;color:var(--mut);border:1px solid var(--bd)}
+.tabs{display:flex;overflow-x:auto;border:1px solid var(--bd);margin-bottom:20px}
+.tabs button{border-bottom:0;border-inline-end:1px solid var(--bd);white-space:nowrap;flex:1}
+.hj{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:44px}
+ul{margin:8px 0 0;padding-inline-start:20px;color:var(--mut)}
+.tp li{margin-bottom:8px}
+footer{padding:36px 0 44px;background:#100e0c;color:#b5a98f;font-size:15px;text-align:center}
+footer b{font:700 22px Amiri,serif;color:#d2ab55;display:block}
+@media(max-width:800px){.hg,.mk,.kg,.hj{grid-template-columns:1fr}.ms div{grid-template-columns:1fr;gap:4px}section{padding:60px 0}.hg{text-align:start}}
+</style>
+</head>
+<body>
+<header class="hero dk">
+<nav><b>رحلة إلى مكة</b><div><a href="#makkah">مكة</a><a href="#kaaba">الكعبة</a><a href="#haram">المسجد الحرام</a><a href="#umrah">العمرة</a><a href="#hajj">الحج</a><a href="#tips">قبل السفر</a></div></nav>
+<div class="hg">
+<div>
+<h1>مكة المكرمة</h1>
+<h2>دليل تعريفي برحلة إلى بيت الله الحرام: المدينة، والكعبة، والمسجد الحرام، ومناسك الحج والعمرة.</h2>
+<p class="ayah">«وَأَذِّن فِي النَّاسِ بِالْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ ضَامِرٍ يَأْتِينَ مِن كُلِّ فَجٍّ عَمِيقٍ»<small>سورة الحج، الآية 27</small></p>
+<a class="btn" href="#makkah">ابدأ الرحلة</a><a class="btn o" href="#umrah">خطوات العمرة</a>
+</div>
+<div class="scene" role="img" aria-label="مجسم ثلاثي الأبعاد للكعبة المشرفة"><div class="cube"><div class="fc"><i class="dr"></i></div><div class="fc"></div><div class="fc"></div><div class="fc"></div><div class="fc t"></div></div></div>
+</div>
+</header>
+
+<section id="makkah"><div class="w">
+<h2>مكة المكرمة</h2>
+<p class="lead">أقدس بقاع الأرض عند المسلمين، ومنها بدأت رسالة الإسلام.</p>
+<div class="mk">
+<div>
+<p>تقع مكة المكرمة في غرب المملكة العربية السعودية، في منطقة الحجاز، وسط جبال السراة. ومن أسمائها: بكة، وأم القرى، والبلد الأمين.</p>
+<p>فيها وُلد النبي محمد ﷺ، وفي غار حراء نزل عليه الوحي. وإليها يتجه المسلمون بوجوههم في كل صلاة.</p>
+</div>
+<dl><dt>القبلة</dt><dd>الكعبة المشرفة هي القبلة التي يتجه إليها المسلمون في صلاتهم.</dd><dt>الحرم</dt><dd>لمكة حدود حرم لها أحكامها الخاصة في الأمن والصيد وقطع الشجر.</dd><dt>الوجهة</dt><dd>يقصدها الملايين كل عام للحج والعمرة.</dd></dl>
+</div>
+<div class="lm">
+<div><b>جبل النور</b><span>وفيه غار حراء، موضع بدء نزول الوحي.</span></div>
+<div><b>جبل ثور</b><span>الغار الذي احتمى به النبي ﷺ وأبو بكر في الهجرة.</span></div>
+<div><b>منى</b><span>موضع رمي الجمرات والمبيت في الحج.</span></div>
+<div><b>عرفة</b><span>الموقف الأعظم، وفيها جبل الرحمة.</span></div>
+</div>
+</div></section>
+
+<section id="kaaba" class="dk"><div class="w">
+<h2>الكعبة المشرفة</h2>
+<p class="lead">أول بيت وُضع للناس للعبادة، رفع قواعده إبراهيم وإسماعيل عليهما السلام. بناء مكعب الشكل يبلغ ارتفاعه نحو 13 مترًا، تكسوه كسوة سوداء من الحرير. اختر جزءًا منها:</p>
+<div class="kg">
+<div class="pl" role="tablist" aria-label="أجزاء الكعبة" id="kp"></div>
+<div class="pn" role="tabpanel" aria-live="polite"><h3 id="kt"></h3><p id="kd"></p></div>
+</div>
+</div></section>
+
+<section id="haram"><div class="w">
+<h2>المسجد الحرام</h2>
+<p class="lead">أكبر مساجد العالم، يحيط بالكعبة من كل جانب، وفيه أهم مواضع المناسك.</p>
+<div class="ms">
+<div><h3>المطاف</h3><p>الساحة المحيطة بالكعبة، يدور فيها الطائفون حولها ليلًا ونهارًا دون انقطاع.</p></div>
+<div><h3>مقام إبراهيم</h3><p>الحجر الذي قام عليه إبراهيم عليه السلام عند بناء الكعبة. تُصلى خلفه ركعتا الطواف.</p></div>
+<div><h3>بئر زمزم</h3><p>ماء زمزم المبارك، ويُستحب الشرب منه بعد الطواف والدعاء عند الشرب.</p></div>
+<div><h3>الصفا والمروة</h3><p>جبلان صغيران بينهما المسعى، والمسافة بينهما قرابة 450 مترًا، وفيه يكون السعي في الحج والعمرة.</p></div>
+</div>
+</div></section>
+
+<section id="umrah" class="dk"><div class="w">
+<h2>مناسك العمرة</h2>
+<p class="lead">تؤدى في أي وقت من السنة، وتستغرق ساعات قليلة. هذه خطواتها بالترتيب:</p>
+<ol class="st">
+<li><h3>الإحرام من الميقات</h3><p>اغتسل وتطيّب في بدنك قبل النية، وارتدِ ثياب الإحرام (إزار ورداء للرجل، ولباس ساتر للمرأة). انوِ العمرة ثم لبِّ:</p><div class="tl">لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ</div></li>
+<li><h3>الطواف بالكعبة</h3><p>سبعة أشواط تبدأ من الحجر الأسود وتنتهي عنده، والكعبة عن يسارك. يُسن للرجل الاضطباع، والرمل في الأشواط الثلاثة الأولى.</p><div class="ct" data-n="7" data-d="اكتمل الطواف"><button>شوط جديد</button><output>0 / 7</output><button type="button">إعادة</button></div></li>
+<li><h3>ركعتان وشرب زمزم</h3><p>صلِّ ركعتين خلف مقام إبراهيم إن تيسر، وإلا ففي أي موضع من المسجد، ثم اشرب من ماء زمزم.</p></li>
+<li><h3>السعي بين الصفا والمروة</h3><p>سبعة أشواط تبدأ بالصفا وتنتهي بالمروة؛ الذهاب شوط والعودة شوط آخر.</p><div class="ct" data-n="7" data-d="اكتمل السعي"><button>شوط جديد</button><output>0 / 7</output><button type="button">إعادة</button></div></li>
+<li><h3>الحلق أو التقصير</h3><p>يحلق الرجل رأسه (وهو أفضل) أو يقصّر، وتقصّر المرأة قدر أنملة من أطراف شعرها. بهذا تتم العمرة.</p></li>
+</ol>
+</div></section>
+
+<section id="hajj"><div class="w">
+<h2>مناسك الحج</h2>
+<p class="lead">ركن الإسلام الخامس، يجب مرة في العمر على المستطيع، ويؤدى في أيام معلومات من شهر ذي الحجة.</p>
+<div class="tabs" role="tablist" id="ht"></div>
+<div class="pn" role="tabpanel" aria-live="polite"><h3 id="hh"></h3><p id="hp"></p></div>
+<div class="hj">
+<div><h3>أنواع الحج</h3><ul><li><b>التمتع:</b> عمرة ثم إحلال، ثم حج في العام نفسه.</li><li><b>القران:</b> الجمع بين العمرة والحج بإحرام واحد.</li><li><b>الإفراد:</b> الإحرام بالحج وحده.</li></ul></div>
+<div><h3>أركان الحج</h3><ul><li>الإحرام</li><li>الوقوف بعرفة</li><li>طواف الإفاضة</li><li>السعي بين الصفا والمروة</li></ul></div>
+</div>
+</div></section>
+
+<section id="tips" class="dk"><div class="w">
+<h2>قبل أن تسافر</h2>
+<ul class="tp">
+<li>تحقق من الشروط والتصاريح الحالية عبر المنصات الرسمية، مثل تطبيق «نسك» ووزارة الحج والعمرة.</li>
+<li>تعلّم المناسك مسبقًا من مصدر علمي موثوق، وتدرّب على ترتيب الخطوات.</li>
+<li>ارتدِ حذاءً مريحًا، واشرب الماء باستمرار، وتجنب أوقات الذروة في الطواف إن أمكن.</li>
+<li>الزحام جزء من الرحلة: ارفق بمن حولك، وقدّم الصبر والسكينة.</li>
+</ul>
+</div></section>
+
+<footer class="dk"><b>اللهم تقبّل منا</b>محتوى تعريفي عام. للأحكام التفصيلية والفتاوى راجع أهل العلم الموثوقين.</footer>
+
+<script>
+const $=s=>document.querySelector(s);
+function tabs(box,items,show,cls){
+ items.forEach((it,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('role','tab');b.textContent=it[0];
+ b.onclick=()=>{[...box.children].forEach(c=>c.setAttribute('aria-selected',c===b));show(it)};box.appendChild(b)});
+ box.firstChild.click()}
+tabs($('#kp'),[
+['الحجر الأسود','في الركن الجنوبي الشرقي، ومنه يبدأ الطواف وإليه ينتهي. يستلمه الطائف أو يقبّله إن تيسر دون إيذاء أحد، وإلا أشار إليه بيده.'],
+['الركن اليماني','في الركن الجنوبي الغربي. يُستلم باليد إن تيسر دون تقبيل، وإلا فلا يُشار إليه.'],
+['الملتزم','ما بين الحجر الأسود وباب الكعبة، وهو موضع يُستحب الدعاء عنده إن تيسر.'],
+['الحِجر','جدار نصف دائري على هيئة قوس في الجهة الشمالية الغربية. جزء منه من البيت، ويكون الطواف من خارجه.'],
+['الباب','في الجدار الشرقي، مرتفع عن الأرض، ومزخرف بالذهب.'],
+['الكسوة','ثوب من الحرير الأسود يغطي الكعبة، ويحيط بها في الأعلى حزام مطرز بآيات من القرآن بخيوط الذهب. وتُستبدل كل عام.']
+],it=>{$('#kt').textContent=it[0];$('#kd').textContent=it[1]});
+tabs($('#ht'),[
+['8 ذو الحجة','يوم التروية: الإحرام بالحج (للمتمتع من مكة) والتوجه إلى منى، وصلاة الصلوات الخمس فيها قصرًا دون جمع، والمبيت بها.'],
+['9 ذو الحجة','يوم عرفة: الوقوف بعرفة من بعد الزوال إلى غروب الشمس بالدعاء والذكر. وفي الحديث: «الحج عرفة». وبعد الغروب الدفع إلى مزدلفة.'],
+['مزدلفة','جمع المغرب والعشاء، والمبيت بها، وصلاة الفجر ثم الذكر والدعاء عند المشعر الحرام حتى الإسفار.'],
+['10 ذو الحجة','يوم النحر: رمي جمرة العقبة بسبع حصيات، ثم الذبح، ثم الحلق أو التقصير، ثم طواف الإفاضة والسعي (للمتمتع).'],
+['أيام التشريق','11 و12 و13: المبيت بمنى ورمي الجمرات الثلاث كل يوم بعد الزوال (الصغرى فالوسطى فالكبرى). ومن تعجل في يومين فلا إثم عليه.'],
+['طواف الوداع','آخر المناسك: يطوف الحاج طواف الوداع قبل مغادرة مكة، ويسقط عن الحائض والنفساء.']
+],it=>{$('#hh').textContent=it[0];$('#hp').textContent=it[1]});
+document.querySelectorAll('.ct').forEach(c=>{const n=+c.dataset.n,o=c.querySelector('output'),[a,r]=c.querySelectorAll('button');let k=0;
+ const u=()=>o.textContent=k>=n?c.dataset.d:k+' / '+n;
+ a.onclick=()=>{if(k<n){k++;u()}};r.onclick=()=>{k=0;u()};u()});
+</script>
+</body>
+</html>
